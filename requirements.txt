@@ -1,0 +1,24 @@
+# Core packages for Lab 2
+# Note: Some packages may require system dependencies (e.g., pyzmq needs zeromq)
+# If installation fails, consider using pre-built wheels or installing via MSYS2 pacman
+
+# Jupyter support (if using VS Code, ipykernel may be sufficient)
+ipykernel>=7.0.0
+
+# Streamlit for web GUI deployment
+streamlit>=1.28.0
+
+# Standard library packages (usually included with Python)
+# tkinter - GUI library (usually included with Python on Windows)
+# No need to install via pip
+
+# Optional: For better performance and compatibility
+numpy>=1.23.0,<3.0
+pandas>=2.0.0
+
+
+
+
+
+
+
